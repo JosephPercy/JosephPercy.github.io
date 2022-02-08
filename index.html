@@ -5,21 +5,26 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
+    <h2 class="title">Scroll and enjoy!</h2>
     <section>
-      <h2>Scroll to view portfolio... Enjoy!</h2>
-      <section></section>
-      <div class="container" id="content">
-        <h2>My name is Joseph Percy</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim magna ullamcorper metus egestas consectetur. Cras a enim sit amet nisl vestibulum tincidunt. Quisque mattis turpis non orci ultrices lobortis. Donec nisi risus, sagittis sed enim at, faucibus scelerisque magna. Aenean in odio rutrum, fringilla arcu a, fringilla justo. Mauris et consequat augue. Fusce ac sapien at lectus ornare blandit ac nec erat. Praesent dolor velit, porta eu rutrum aliquam, rhoncus nec nulla.<br><br>
+      <section class="bg-image"></section>
+      <section class="bg-overlay"></section>
+    </section>
+    <div class="container">
+      <h2>My name is Joseph Percy</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim magna ullamcorper metus egestas consectetur. Cras a enim sit amet nisl vestibulum tincidunt. Quisque mattis turpis non orci ultrices lobortis. Donec nisi risus, sagittis sed enim at, faucibus scelerisque magna. Aenean in odio rutrum, fringilla arcu a, fringilla justo. Mauris et consequat augue. Fusce ac sapien at lectus ornare blandit ac nec erat. Praesent dolor velit, porta eu rutrum aliquam, rhoncus nec nulla.<br><br>
         Fusce porttitor risus ex, at vestibulum felis mattis eu. Vivamus interdum ac nisl a auctor. Donec sagittis elit viverra enim vestibulum, vitae gravida velit imperdiet. Suspendisse sodales neque in neque convallis aliquam. Aenean nec purus eget ex varius vestibulum. Nulla facilisi. Pellentesque tincidunt lectus nec libero porta tempus. Aliquam non ullamcorper nibh. Aenean auctor rhoncus sapien nec tincidunt. Aliquam tortor sem, iaculis in efficitur id, facilisis quis libero. Vestibulum congue eget nunc ac vestibulum.<br><br>
         Curabitur facilisis ut dui et malesuada. Nam eget velit cursus, mollis elit venenatis, condimentum libero. Phasellus commodo augue id leo malesuada egestas. Suspendisse potenti. Maecenas iaculis tortor elit, at accumsan mauris dictum a. Vestibulum vitae metus at lacus viverra convallis. Curabitur mollis bibendum sollicitudin. Donec imperdiet ex eu lobortis accumsan. Morbi aliquet aliquet sapien, eleifend pulvinar orci pulvinar vel. Integer non sapien nec purus pretium ultrices eu eu magna. Proin ipsum ante, sollicitudin ut sapien rutrum, finibus tempus leo. Ut euismod turpis eu iaculis venenatis.<br><br>
         Nam elit nunc, vehicula id gravida vitae, volutpat id lacus. Nullam in turpis lorem. Cras venenatis sapien ante, in aliquet ipsum auctor in. Nam efficitur ornare ante at pretium. Etiam varius iaculis risus vel ullamcorper. Nunc tellus lorem, feugiat at arcu vel, fermentum commodo dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus a aliquam nisl.<br><br>
-        Quisque elementum lorem vitae sapien mattis mattis. Fusce a ullamcorper metus, pretium luctus nulla. Morbi sit amet imperdiet orci, id molestie quam. Sed eu varius nunc, sed porttitor ligula. Aliquam sollicitudin luctus pulvinar. Vivamus at mauris vitae lacus volutpat consectetur. Nam viverra faucibus magna, quis sodales nisl feugiat sed. Integer augue eros, rhoncus a viverra nec, hendrerit at leo. Donec viverra malesuada augue, ut pretium purus placerat non.</p>
-      </div>
-  </section>
+        Quisque elementum lorem vitae sapien mattis mattis. Fusce a ullamcorper metus, pretium luctus nulla. Morbi sit amet imperdiet orci, id molestie quam. Sed eu varius nunc, sed porttitor ligula. Aliquam sollicitudin luctus pulvinar. Vivamus at mauris vitae lacus volutpat consectetur. Nam viverra faucibus magna, quis sodales nisl feugiat sed. Integer augue eros, rhoncus a viverra nec, hendrerit at leo. Donec viverra malesuada augue, ut pretium purus placerat non.
+      </p>
+    </div>
   <script type="text/javascript">
+    var bg = document.querySelector('.bg-overlay');
     window.addEventListener("scroll", function() {
       var value = window.scrollY;
+      bg.style.backgroundSize = 100 + (value*2) + 'px';
     });
   </script>
   </body>
