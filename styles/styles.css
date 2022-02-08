@@ -5,7 +5,6 @@
   font-family: 'rondalsemibold';
 }
 body {
-  min-height: 2000px;
 }
 section {
   position: fixed;
@@ -32,7 +31,7 @@ section .bg-overlay {
   background: #fff url('../src/camera-black.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100px;
+  background-size: 0px;
   mix-blend-mode: screen;
 }
 .container {
@@ -47,7 +46,7 @@ section .bg-overlay {
 }
 .title {
   position: relative;
-  top: 250px;
+  top: 10vh;
   z-index: 1;
   font-size: 3em;
   text-align: center;
