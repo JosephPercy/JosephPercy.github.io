@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'rondalbold';
+    src: url('rondalbold-webfont.woff2') format('woff2'),
+         url('rondalbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rondalsemibold';
+    src: url('rondalsemibold-webfont.woff2') format('woff2'),
+         url('rondalsemibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

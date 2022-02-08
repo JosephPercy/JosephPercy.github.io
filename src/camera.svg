@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="145" height="110" viewBox="0 0 145 110">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <path d="M5,28H140a5,5,0,0,1,5,5v71a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V33A5,5,0,0,1,5,28Z"/>
+  <path id="Triangle_1" data-name="Triangle 1" class="cls-1" d="M37,5L51,29H23Z"/>
+  <path id="Triangle_1-2" data-name="Triangle 1" class="cls-1" d="M72,5L86,29H58Z"/>
+  <path class="cls-2" d="M40,5H69a3,3,0,0,1,3,3V29.313a0,0,0,0,1,0,0H37a0,0,0,0,1,0,0V8A3,3,0,0,1,40,5Z"/>
+  <rect class="cls-2" x="42" width="24" height="5" rx="2" ry="2"/>
+  <rect class="cls-2" x="88" y="21" width="16" height="8"/>
+  <rect class="cls-2" x="85" y="21" width="22" height="5" rx="2" ry="2"/>
+  <path class="cls-2" d="M115,23h5a4,4,0,0,1,4,4v2a0,0,0,0,1,0,0H111a0,0,0,0,1,0,0V27A4,4,0,0,1,115,23Z"/>
+</svg>
