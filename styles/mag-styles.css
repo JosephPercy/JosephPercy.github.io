@@ -10,11 +10,16 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-
+/*
+Background: #1e272e
+Text: #d2dae2
+Accent 1: #4bcffa
+Accent 2: #0fbcf9
+*/
 body {
   font-family: 'Baskervville', serif;
-  color: #1e272e;
-  background-color: #f1f2f6;
+  color: #d2dae2;
+  background-color: #1e272e;
 }
 
 h1 {
@@ -27,7 +32,7 @@ h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #1e272e;
+  color: #d2dae2;
 }
 
 main {
@@ -43,8 +48,7 @@ img {
 
 hr {
   margin: 1.5rem 0;
-  /* border: 1px solid rgba(120, 120, 120, 0.6); */
-  border: 1px solid #575fcf;
+  border: 1px solid #0fbcf9;
 }
 
 .heading {
@@ -73,13 +77,13 @@ hr {
 
 .story-title {
   text-align: center;
-  color: #3c40c6;
+  color: #4bcffa;
   font-size: 8rem;
 }
 
 .story-subtitle {
   font-size: 2.4rem;
-  color: #3c40c6;
+  color: #4bcffa;
   text-align: center;
 }
 
@@ -89,12 +93,12 @@ hr {
 }
 
 .author-name a:hover {
-  background-color: #575fcf;
+  background-color: #0fbcf9;
   color: linen;
 }
 
 .publish-date {
-  color: #575fcf;
+  color: #0fbcf9;
 }
 
 .social-icons {
@@ -108,13 +112,13 @@ hr {
 
 .first-paragraph::first-letter {
   font-size: 6rem;
-  color: #3c40c6;
+  color: #4bcffa;
   float: left;
   margin-right: 1rem;
 }
 
 .quote {
-  color: #3c40c6;
+  color: #4bcffa;
   font-size: 2.4rem;
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -145,7 +149,7 @@ hr {
 }
 
 .list-title, .list-subtitle {
-  color: #3c40c6;
+  color: #4bcffa;
 }
 
 .image-wrapper {
