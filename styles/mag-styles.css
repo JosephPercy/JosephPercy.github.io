@@ -156,6 +156,48 @@ hr {
   place-items: center;
 }
 
+.hoverwrap {
+  position: relative;
+  grid-column: 1 / -1;
+}
+
+.hoverwrap-half {
+  position: relative;
+  grid-column: 1;
+}
+
+.hoverwrap img { width: 100%; }
+
+.hovercap {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: linen;
+}
+
+.hovercap {
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.hoverwrap:hover .hovercap {
+  visibility: visible;
+  opacity: 1;
+}
+.hoverwrap-half:hover .hovercap {
+  visibility: visible;
+  opacity: 1;
+}
+
+.big-image {
+  grid-column: 2 / -1;
+  grid-row: 1;
+}
+
 .image-1, .image-3 {
   grid-column: 1 / -1;
 }
