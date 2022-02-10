@@ -53,11 +53,11 @@ section .bg-overlay {
   height: 100%;
   margin-top: 30px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: min-content;
   row-gap: 30px;
-  align-content: center;
-  justify-content: center;
+  align-items: center;
+  justify-items: center;
   transform-style: preserve-3d;
 }
 .book-wrapper {
@@ -101,4 +101,17 @@ section .bg-overlay {
   font-family: 'ronaldbold';
   text-align: center;
   width: 100%;
+}
+
+@media only screen and (max-width: 1080px) {
+  .book-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .book-wrapper {
+    width: 60vw;
+    height: 88.8vw;
+  }
 }
